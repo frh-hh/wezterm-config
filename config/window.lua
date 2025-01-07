@@ -2,8 +2,8 @@ local platform = require('utils.platform')
 
 if platform.is_win then
     return {
-        initial_cols = 160,
-        initial_rows = 40,
+        initial_cols = 120,
+        initial_rows = 30,
     }
 elseif platform.is_mac then
     return {
